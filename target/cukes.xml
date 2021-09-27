@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.458179">
+    <testcase classname="Login to internet banking webpage" name="Successful login to internet banking" time="7.458179">
+        <system-out>
+            <![CDATA[Given User is in the login page.............................................passed
+When user logins with "abc" and pwd "123" and clicks login button...........passed
+Then user is navigated to the home page of the internet banking account.....passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

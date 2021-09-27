@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2251822900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginPagestepdefinitions.browsersetup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Successful login to internet banking",
+        "description": "",
+        "id": "login-to-internet-banking-webpage;successful-login-to-internet-banking",
+        "after": [
+          {
+            "result": {
+              "duration": 811237400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginPagestepdefinitions.browserteardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3797733800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in the login page",
+            "match": {
+              "location": "loginPagestepdefinitions.user_is_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 597274700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logins with \"abc\" and pwd \"123\" and clicks login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 18
+                },
+                {
+                  "val": "123",
+                  "offset": 32
+                }
+              ],
+              "location": "loginPagestepdefinitions.user_logins_with_something_and_pwd_something_and_clicks_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is navigated to the home page of the internet banking account",
+            "match": {
+              "location": "loginPagestepdefinitions.user_is_navigated_to_the_home_page_of_the_internet_banking_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login to internet banking webpage",
+    "description": "",
+    "id": "login-to-internet-banking-webpage",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/Login.feature"
+  }
+]
